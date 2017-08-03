@@ -127,7 +127,7 @@ include vendor/sm/config/cmsdk_common.mk
 
 # TWRP
 ifeq ($(WITH_TWRP),true)
-include vendor/cm/config/twrp.mk
+include vendor/sm/config/twrp.mk
 endif
 
 # Bootanimation
